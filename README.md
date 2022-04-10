@@ -25,11 +25,11 @@ model where all p-values were less than 0.05 and VIF<2.
 - The business aspects were also taken into consideration while selecting the variables for
 the model. The top 5 features after model building were:
 
--> TotalVisits
--> Total Time Spent on Website
--> Lead Origin_Lead Add Form
--> Lead Source_Olark Chat
--> Lead Source_Welingak Website
+1. TotalVisits
+2. Total Time Spent on Website
+3. Lead Origin_Lead Add Form
+4. Lead Source_Olark Chat
+5. Lead Source_Welingak Website
     
 - Model Evaluation was performed to check for its accuracy, sensitivity and specificity.
 ROC curve was plotted by taking the cut-off as 0.5 and the area under the curve was
