@@ -42,7 +42,7 @@ Specificity were found to be around 78%.
 - As per the Conversion probability obtained, the lead score was calculated for each lead
 and assigned it accordingly.
 
-# Insights and Recommendations to the business
+# Insights and Recommendations to the Business
 
 - The highest contributing columns to the Conversion probability were Total visits
 followed by Total time spent on the Website and Lead_Origin_Add form. The sales
