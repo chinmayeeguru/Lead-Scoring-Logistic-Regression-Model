@@ -22,6 +22,11 @@ variables.
 - In the model building step, the RFE approach was used to select 15 columns and based
 on the p-values and VIF manual feature elimination was performed to arrive at the final
 model where all p-values were less than 0.05 and VIF<2.
+
+![image](https://user-images.githubusercontent.com/103338455/162637079-92558f0c-d9d4-4425-8546-d1f2b44053a7.png)
+
+![image](https://user-images.githubusercontent.com/103338455/162637096-8c66fc58-c914-46a0-8e9b-7911bf42cb67.png)
+
 - The business aspects were also taken into consideration while selecting the variables for
 the model. The top 5 features after model building were:
 
@@ -34,9 +39,15 @@ the model. The top 5 features after model building were:
 - Model Evaluation was performed to check for its accuracy, sensitivity and specificity.
 ROC curve was plotted by taking the cut-off as 0.5 and the area under the curve was
 equal to 0.86.
+
+![image](https://user-images.githubusercontent.com/103338455/162637122-0d6bdf98-de0e-4671-8d7d-97cf2bebb183.png)
+
 - In-order to find the optimal threshold the values of accuracy, sensitivity and specificity
 were plotted together and the threshold was found to be at 0.42. At this value the
 Accuracy, Sensitivity and Specificity were found to be around 79%.
+
+![image](https://user-images.githubusercontent.com/103338455/162637128-28abcee5-8b50-4b41-aa85-758529888105.png)
+
 - Finally, after performing predictions against the test data, the Accuracy, Sensitivity and
 Specificity were found to be around 78%.
 - As per the Conversion probability obtained, the lead score was calculated for each lead
